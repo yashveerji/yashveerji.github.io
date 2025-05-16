@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yashveer Ji | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔄 Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+  </div>
+
+  <!-- 🔝 Navigation -->
+  <nav>
+    <div class="logo">Yashveer_Ji</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button onclick="toggleDarkMode()">🌓</button></li>
+    </ul>
+  </nav>
+
+  <!-- 🎯 Hero Section -->
+  <header class="hero" data-aos="fade-up">
+    <img src="assets/yashveer.jpg" alt="Yashveer Ji" class="profile-img" />
+    <h1>I’m Yashveer Singh</h1>
+    <p>Developer | Creator | Entrepreneur</p>
+    <a href="assets/resume.pdf" class="btn" download>📄 Download Resume</a>
+  </header>
+
+  <!-- 👨‍💼 About -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I’m a passionate developer and entrepreneur blending creativity with innovation. From AI-based helmet detection to YouTube educational content and event management, I lead projects that bring impact and inspiration.</p>
+  </section>
+
+  <!-- 🚀 Skills -->
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">💻 Web Dev</div>
+      <div class="skill">📊 Data Analytics</div>
+      <div class="skill">🎥 Video Editing</div>
+      <div class="skill">🤖 AI Projects</div>
+      <div class="skill">🧠 Psychology Research</div>
+      <div class="skill">📱 Content Creation</div>
+    </div>
+  </section>
+
+  <!-- 📂 Projects -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Helmet Detection AI</h3>
+      <p>YOLOv11 and Python powered real-time helmet detection hosted on Google Cloud.</p>
+    </div>
+    <div class="project">
+      <h3>KnowledgeNova</h3>
+      <p>YouTube channel for students, youth and aspirants with trending psychological and motivational content.</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/@KnowledgeNovaofficial" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="project">
+      <h3>EventX</h3>
+      <p>Event management services that combine planning, design, and creativity for unforgettable experiences.</p>
+    </div>
+  </section>
+
+  <!-- 📸 Gallery -->
+  <section id="gallery" data-aos="fade-up">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="assets/gallery1.jpg" alt="Gallery Image 1" />
+      <img src="assets/gallery2.jpg" alt="Gallery Image 2" />
+      <img src="assets/gallery3.jpg" alt="Gallery Image 3" />
+    </div>
+  </section>
+
+  <!-- 💬 Testimonials -->
+  <section id="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial-slider">
+      <blockquote>"Yashveer’s knowledge and consistency is inspiring!"</blockquote>
+      <blockquote>"A brilliant mind with a kind heart and great vision."</blockquote>
+      <blockquote>"Hardworking, strategic and always creative!"</blockquote>
+    </div>
+  </section>
+
+  <!-- 📬 Contact -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="Check" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- 📞 WhatsApp Floating -->
+  <a href="https://wa.me/918077826319" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">💬</a>
+
+  <!-- 🔚 Footer -->
+  <footer>
+    <p>© 2025 Yashveer Ji. All Rights Reserved.</p>
+  </footer>
+
+  <!-- 📜 Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+  <script src="script.js"></script>
+</body>
+</html>
